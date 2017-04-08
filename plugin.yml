@@ -1,0 +1,16 @@
+name: XenforoIntegrations
+main: uk.co.lyncrestcreative.XenforoIntegrations
+version: 1.0
+website: http://leon.randell.space
+description: Xenforo integration, create a table with xenforo user id and minecraft uuid.
+authors: [leonfagan71]
+commands:
+  iam:
+    description: Set your forum account name.
+    usage: /iam {forumname}
+  xi:
+    description: XenforoIntegration tools
+    usage: /xi help
+  rank:
+    description: View or set a player rank
+    usage: /rank {username} [rank]
